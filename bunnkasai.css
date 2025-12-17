@@ -56,7 +56,7 @@ body {
 }
 
 /*カルーセル関係*/
-.carousel-contents {
+#carousel {
   display: flex;
   overflow-x: auto;          /* 横スクロールを許可 */
   scroll-snap-type: x mandatory; /* スクロール位置をスナップさせる */
