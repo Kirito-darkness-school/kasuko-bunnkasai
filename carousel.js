@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const cardWidth = card.offsetWidth;
     
     // 3. CSSで設定した gap: 16px の値
-    const gap = 16; 
+    const gap = 16;
 
     // 4. 「カード1枚分 + 隙間」の距離を計算
     const scrollAmount = cardWidth + gap;
