@@ -35,8 +35,6 @@ document.addEventListener('DOMContentLoaded', () => {
             if (intervalCount > indexMax){
                 intervalCount = 0;
             }
-        }, 1000);
+        }, intervalTime);
     }
-
-    console.log("移動距離:", scrollAmount);
 });
