@@ -147,10 +147,12 @@
 
 .top-festival-image{
     text-align: center;
+    width: 100%;
 }
 
 .top-festival-image img{
-    width: 500px;
+    width: 30%;
+    margin: 0 auto;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
