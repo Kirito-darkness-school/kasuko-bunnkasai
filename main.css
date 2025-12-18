@@ -55,11 +55,11 @@
 }
 
 .border-left {
-    border-left: 3px solid black;
+    border-left: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 .border-right {
-    border-right: 3px solid black;
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
 }
 .fixed-header nav ul li {
     margin: 0px 20px ;
