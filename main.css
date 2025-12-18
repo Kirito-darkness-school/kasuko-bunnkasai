@@ -30,7 +30,7 @@
     margin: 0;
     padding: 0;
     display: flex; /* 横並び */
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .fixed-header nav ul li {
