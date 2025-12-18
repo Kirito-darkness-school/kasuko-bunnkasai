@@ -255,15 +255,47 @@ nav.crowded-site-invite h3:hover{
     height: 300px;
     border-top: 2px solid #ccc;
     border-bottom: 2px solid #ccc;
-    overflow: hidden;
+
+    position: relative;
+}
+
+@keyframes sliding {
+  0% {
+    /* アニメーション開始時 */
+    right: 0px;
+    left: 100%;
+  }
+
+  100% {
+    /* アニメーション終了時 */
+    left: 0px;
+    right: 100%;
+  }
 }
 
 .festival-projects-slide .slide-inner{
-    display: flex;
-    width: calc(250px * 14);
-    animation: scroll 40s linear infinite;
+    overflow: hidden;
 }
 
 .festival-projects-slide img{
     height: 100%;
+}
+
+.festival-projects-slide img:nth-child(1){
+    animation: sliding 10s linear 0s infinite normal forwards;
+}
+.festival-projects-slide img:nth-child(2){
+    animation: sliding 10s linear 2s infinite normal forwards;
+}
+.festival-projects-slide img:nth-child(3){
+    animation: sliding 10s linear 4s infinite normal forwards;
+}
+.festival-projects-slide img:nth-child(4){
+    animation: sliding 10s linear 6s infinite normal forwards;
+}
+.festival-projects-slide img:nth-child(5){
+    animation: sliding 10s linear 8s infinite normal forwards;
+}
+.festival-projects-slide img:nth-child(6){
+    animation: sliding 10s linear 10s infinite normal forwards;
 }
