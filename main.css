@@ -147,14 +147,12 @@
 }
 
 .top-festival-image{
-    width: 100%;
+    width: 70%;
     text-align: center;
 }
 
 .top-festival-image img{
-    width: 100%;
-    max-height: 500px;
-    object-fit: cover;
+    width: 50%;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
