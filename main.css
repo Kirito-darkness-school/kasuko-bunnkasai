@@ -230,7 +230,6 @@ nav.invite-box a{
     border-radius: 10px;
 
     background-color: rgba(255, 255, 255, 0.8);
-    background-image: url("images/konzatsu\ joukyou\ gaiyou.png");
     background-blend-mode: lighten;
     background-size: cover;
 }
@@ -244,6 +243,14 @@ nav.invite-box a:hover{
 nav.invite-box h3{
     font-size: 2em;
     transition: all 0.3s;
+}
+
+nav.crowded-site{
+    background-image: url("images/konzatsu\ joukyou\ gaiyou.png");
+}
+
+nav.reservation-site{
+    background-image: url("images/home/yaju.jpg");
 }
 
 .festival-projects-slide{
